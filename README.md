@@ -53,3 +53,11 @@
   |  2 | goo@example.com | 1111 | 2019-12-25 18:11:07 | 2019-12-25 18:11:07 |
   +----+-----------------+------+---------------------+---------------------+
   2 rows in set (0.00 sec)
+
+4. json-web-token-example 다운로드 및 설치와 실행
+
+  # cd somewhere/json-web-token-example-master
+
+  # npm install
+
+  # npm start 
