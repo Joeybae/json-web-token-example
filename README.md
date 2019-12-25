@@ -54,10 +54,28 @@
   +----+-----------------+------+---------------------+---------------------+
   2 rows in set (0.00 sec)
 
-4. json-web-token-example 다운로드 및 설치와 실행
+4. json-web-token-example 다운로드 및 설치
 
   # cd somewhere/json-web-token-example-master
 
   # npm install
 
-  # npm start 
+5. 결과 확인
+
+  # npm start
+  
+  - token 발행
+  
+  # localhost:3000/login
+  
+  - 결과
+  
+  # {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZvb0BleGFtcGxlLmNvbSIsImlhdCI6MTU3NzI2NzczOCwiZXhwIjoxNTc3MjY4MDM4fQ.lAl_L8p6pEHRJAnWnKxOXc3NVTpPajdlApDOQ0g-VTU"}
+  
+  - 연결확인
+  
+  # localhost:3000/someAPI
+  
+  - 결과
+  
+  # 권한이 있어서 API 수행 가능
